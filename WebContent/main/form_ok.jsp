@@ -7,7 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	안녕하세요! 첫 js 프로젝트 입니다!
+	<%= "Result Page\n" %><br>
+	<%  
+		String fname=request.getParameter("fname");
+		String lname=request.getParameter("lname");  
+		out.print("welcome "+fname + ", " +lname);  
+	%>    
 
 </body>
 </html>
+
