@@ -50,7 +50,7 @@ Hello!
 </c:if>  
 
 <p><b>forEach</b> <i>(begin:1 end:3)</i></p>
-<c:forEach var="j" begin="1" end="3">  
+<c:forEach var="j" begin="1" end="4">  
    Item <c:out value="${j}"/><p>  
 </c:forEach> 
 
