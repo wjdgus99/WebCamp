@@ -58,7 +58,7 @@ Hello!
 <c:forTokens items="Rahul-Nakul-Rajesh" delims="-" var="name">  
    <c:out value="${name}"/><p>  
 </c:forTokens>  
-<c:url value="/RegisterDao.jsp"/>  <br>
+<c:url value="/RegisterDao.jsp"/><br>
 
 </body>
 </html>
